@@ -97,7 +97,7 @@ play = () => {
 for (let i=0; i<songs.length;i++) {
     deck.innerHTML += "" +
         `<div class="col d-flex">` +
-        `    <div class="card shadow-sm flex-fill" onclick="player.src='${songs[i].url}; play()" id="card"> \n`+
+        `    <div class="card shadow-sm flex-fill" onclick="player.src='${songs[i].url}'; play()" id="card"> \n`+
         `       <img src="${songs[i].image[0]}" alt="" class="card-img-top d-block d-sm-block d-md-none d-lg-none d-xl-none">\n` +
         `       <img src="${songs[i].image[1]}" alt="" class="card-img-top d-none d-sm-none d-md-block d-lg-none d-xl-none">\n` +
         `       <img src="${songs[i].image[2]}" alt="" class="card-img-top d-none d-sm-none d-md-none d-lg-block d-xl-none">\n` +
