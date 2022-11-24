@@ -110,7 +110,6 @@ for (let i=0; i<songs.length;i++) {
         "</div>";
 }
 
-
 volumeDown = () => {
     player.volume-=.1;
 }
